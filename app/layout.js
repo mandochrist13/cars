@@ -27,11 +27,11 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex">
-          <div className="">
-            <Navbar />
+          <div className="flex border md:flex-col md:gap-10 py-5 rounded-lg justify-around w-full max-w-[300px] bg-white">
+            <SideBar />
           </div>
           <div className="">
-            <SideBar />
+            <Navbar />
           </div>
         </div>
 
