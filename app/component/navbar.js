@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function SideBar() {
+export default function Navbar() {
   return (
     <div className="">
    hello
