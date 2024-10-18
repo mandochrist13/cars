@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
             <SideBar />
             
           </div>
-          <div className=" flex flex-col">
+          <div className=" flex flex-col w-full">
             <Navbar />
             <div className="hidden md:flex">{children}</div>
           </div>
