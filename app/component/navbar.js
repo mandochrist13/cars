@@ -7,7 +7,7 @@ export default function Navbar() {
         <div>
         <Image 
         src="/image_2-removebg-preview 1.png"
-        width={80}
+        width={30}
         height={80}
         alt="image"
         />
@@ -15,7 +15,7 @@ export default function Navbar() {
         <div>
         <Image 
         src="/Ellipse 1.png"
-        width={80}
+        width={30}
         height={80}
         alt="image"
         />
