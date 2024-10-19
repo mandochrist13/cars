@@ -25,3 +25,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.container-app{
+  max-width: 1473px;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+
