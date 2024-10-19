@@ -2,15 +2,15 @@ import Image from 'next/image';
 
 const ACard = () => {
   return (
-    <div className="flex justify-center items-center flex-row h-3/4 w-full bg-black text-white">
-      <div className="flex justify-center items-center flex-row relative w-[450px] h-[650px] perspective-1000 transform-style-3d transition-transform duration-1000 floating">
-        <div className="flex justify-around items-center flex-row rounded-2xl shadow-2xl overflow-hidden card-face card-front">
+    <div className="flex justify-center items-center flex-row h-3/4 w-full text-black ">
+      <div className=" flex justify-center items-center flex-row w-[450px] h-[680px] perspective-1000 transition-transform duration-1000 floating">
+        <div className="bg-white flex justify-around items-center flex-row rounded-2xl shadow-2xl overflow-hidden card-face card-front">
           <div className="">
             <Image
               src="/BD11.png"
               alt="Une élégante Aston Martin DB11 en exposition"
-              width={900}
-              height={900}
+              width={400}
+              height={400}
             />
           </div>
           <div className="p-6 flex flex-col justify-between h-[40%]">
@@ -105,10 +105,10 @@ const ACard = () => {
               </p>
             </div>
             <div className="flex justify-between mt-4">
-              <button className="bg-blue-500 text-black py-2 px-4 rounded-md font-bold hover:bg-blue-300 transform hover:scale-105 transition-transform duration-300">
+              <button className="bg-blue-500 text-black py-1 px-2 rounded-md font-bold hover:bg-blue-300 transform hover:scale-105 transition-transform duration-300">
                 Supprimer
               </button>
-              <button className="bg-blue-500 text-black py-2 px-4 rounded-md font-bold hover:bg-blue-300 transform hover:scale-105 transition-transform duration-300">
+              <button className="bg-blue-500 text-black py-1 px-2 rounded-md font-bold hover:bg-blue-300 transform hover:scale-105 transition-transform duration-300">
                 Modifier
               </button>
             </div>

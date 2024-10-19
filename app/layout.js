@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           </div>
           <div className=" flex flex-col w-full">
             <Navbar />
-            <div className="hidden md:flex ">{children}</div>
+            <div className="hidden md:flex justify-center">{children}</div>
           </div>
           <div className="flex  md:hidden md:gap-10 p-5 rounded-lg justify-around bg-white m-[20px] h-full">
             <a
