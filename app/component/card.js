@@ -2,15 +2,15 @@ import Image from 'next/image';
 
 const ACard = () => {
   return (
-    <div className="flex justify-center items-center flex-row h-screen bg-black text-white overflow-hidden">
+    <div className="flex justify-center items-center flex-row h-3/4 w-full bg-black text-white">
       <div className="flex justify-center items-center flex-row relative w-[450px] h-[650px] perspective-1000 transform-style-3d transition-transform duration-1000 floating">
         <div className="flex justify-around items-center flex-row rounded-2xl shadow-2xl overflow-hidden card-face card-front">
-          <div className=" w-full ">
+          <div className="">
             <Image
               src="/BD11.png"
               alt="Une élégante Aston Martin DB11 en exposition"
-              width={800}
-              height={800}
+              width={900}
+              height={900}
             />
           </div>
           <div className="p-6 flex flex-col justify-between h-[40%]">
