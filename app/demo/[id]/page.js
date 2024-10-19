@@ -1,4 +1,4 @@
-import ACard from "../component/card";
+import ACard from "../../component/card";
 
 const demo = ()=>{
     return (
