@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function auth() {
   return (
     <section className="w-full h-svh lg:flex lg:justify-between bg-white ">
 
