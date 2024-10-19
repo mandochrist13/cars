@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Ajout() {
   return (
    
-    <div className="flex justify-center items-center h-screen ml-3.5 pb-28 mt-1">
+    <div className="flex justify-center items-center h-auto ml-3.5 pb-28 mt-1">
     <form className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
       <h1 className="text-2xl font-bold mb-3 text-center text-black">Ajouter</h1>
       <h3 className="text-xl font-serif mb-1 text-center text-black">Remplir le formulaire</h3>
 
-      <div className="mb-4">
+      <div className="mb-4 space-y-4">
         <input type="text" name="modele" className="w-full px-4 py-2 border border-gray-300 rounded-md" placeholder="Marque"/>
         <input type="text" name="marque" className="w-full px-4 py-2 border border-gray-300 rounded-md" placeholder="Modéle" />
         <input type="number" name="annee" className="w-full px-4 py-2 border border-gray-300 rounded-md" placeholder="Année" />
