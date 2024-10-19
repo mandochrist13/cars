@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
       <body
         className={`bg-[#D7D7D7] h-svh ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex flex-col md:flex-row md:h-screen ">
-          <div className="hidden md:w-1/4 md:block overflow-y-auto h-full py-5 rounded-r-lg justify-around w-full max-w-[300px] bg-[#7AA6E3]">
+        <div className="flex flex-col md:flex-row md:h-svh overflow-hidden  ">
+          <div className="hidden  md:w-1/4 md:block overflow-y-auto h-full py-5 rounded-r-lg justify-around w-full max-w-[300px] bg-[#7AA6E3]">
             <SideBar />
             
           </div>

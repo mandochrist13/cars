@@ -1,11 +1,10 @@
 import Image from "next/image";
 
-export default function Ajout() {
+export default function Modif() {
   return (
-   
     <div className="flex justify-center items-center h-screen ml-3.5 pb-28 ">
     <form className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-      <h1 className="text-2xl font-bold mb-3 text-center">Ajouter</h1>
+      <h1 className="text-2xl font-bold mb-3 text-center">Modifier</h1>
       <h3 className="text-xl font-serif mb-1 text-center">Remplir le formulaire</h3>
 
       <div className="mb-4">
@@ -38,10 +37,9 @@ export default function Ajout() {
 
         </div>
       <button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-md">
-        Ajouter
+        Modifier
       </button>
     </form>
   </div>
-);
-}
-  
+  );
+};

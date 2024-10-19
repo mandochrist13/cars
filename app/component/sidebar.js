@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function SideBar() {
   return (
     <div>
-      <div className="flex justify-between items-center pb-10 border-b p-4">
+      <div className="flex  justify-between items-center pb-10 border-b p-4">
         <div>
         <Image src={"/image_2-removebg-preview 1.png"} width={100} height={100} className="rounded-full w-[70px]" />
         </div>
