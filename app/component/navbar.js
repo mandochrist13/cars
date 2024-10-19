@@ -11,7 +11,7 @@ export default function Navbar() {
       height={100}
       alt="image"
     />
-    <h1 className="text-[#081021] font-bold text-2xl lg:text-5xl">Cars</h1>
+    <h1 className="text-[#081021] md:hidden font-bold text-2xl lg:text-5xl">Cars</h1>
   </div>
   <div className="flex justify-between items-center gap-4 ml-14 mx-3" >
     <Image 
