@@ -28,12 +28,12 @@ export default function auth() {
             <form action="#" className="mb-0 mt-6 space-y-[20%] text-black rounded-2xl p-4 sm:p-6 lg:p-8">
 
               <div className="space-y-7">
-                <label htmlFor="nom " className="sr-only">nom d’utilisateur</label>
+                <label htmlFor="nom " className="sr-only">nom d&apos;utilisateur</label>
 
                 <div>
 
                 <div className="relative">
-                  <p>nom d’utilisateur</p>
+                  <p>nom d&apos;utilisateur</p>
                   <input
                     type="nom "
                     className="w-full rounded-lg border-gray-200 text-black p-4 pe-12 text-sm shadow-sm"

@@ -1,9 +1,13 @@
-import Image from "next/image";
+"use client"
+
 import { PlusCircleIcon } from "@heroicons/react/24/outline";
-import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { redirect } from 'next/navigation';
+
 import ReadCar from "./component/readCar";
 
 export default function Home() {
+
+
   return (
     <div className="flex flex-col w-full">
       {/* Header section */}
@@ -42,7 +46,7 @@ export default function Home() {
       </div>
 
       {/* Content section with scroll */}
-      <div className="w-[90%] mx-auto h-full md:h-[50%] overflow-auto flex flex-col ">
+      <div className="w-[90%] md:w-full mx-auto h-full md:h-[50%] overflow-auto flex flex-col ">
         <ReadCar />
       </div>
     </div>
